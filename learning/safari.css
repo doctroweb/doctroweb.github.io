@@ -1,0 +1,79 @@
+#container {
+  weight: 400px;
+  border: thin solid grey;
+}
+
+#safari {
+  line-height: 50px;
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+}
+
+#elephant {
+  background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2012/10/Beautiful-baby-elephant-picture.jpg");
+}
+
+#tiger {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLZyLE3bDVXOxWXpTQ4SaQOdxaaXrYec6bCrlErMFrYukKQbL");
+}
+
+#lion {
+  background-image: url("http://www.lionaid.org/media/spartpressImages/do-volunteers-contribute-to-lion-conservation-by-paying-to-participate-in-research-programs-on-small-private-reserves-2.jpg");
+}
+
+.animal {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: thick solid white;
+  text-align: center;
+  line-height: 200px;
+  font-size: 15px;
+  background-size: 100%;
+  margin: 20px auto;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate:hover {
+  animation: rotate 3s infinite;
+  cursor: pointer;
+}
+
+@keyframes transforms {
+  from {
+    border-radius: 50%;
+    width: 200px;
+    border-color: white;
+  }
+  50% {
+    border-radius: 0;
+    width: 300px;
+    border-color: black;
+  }
+  to {
+    width: 200px;
+    border-color: white;
+  }
+}
+
+#transformer {
+  background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2012/10/Beautiful-baby-elephant-picture.jpg");
+  animation: transforms 3s infinite;
+  cursor: pointer;
+}
+
