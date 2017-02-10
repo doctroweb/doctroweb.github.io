@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    height: 50px;
+    width: 80%;
+    background: grey;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+p, li {
+    line-height: 1.5;
+    letter-spacing: auto;
+    font-size: 20px;
+    color: blue;
+}
