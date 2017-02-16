@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.firststrip, .secondstrip, .thirdstrip {
+    height: 80px;
+    width: 380px;
+    margin: auto;
+}
+
+.firststrip {
+    background-color: orange;
+    margin-top: 15px;
+}
+
+.secondstrip {
+    background-color: white;
+}
+
+.thirdstrip {
+    background-color: green;
+}
+
+#circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: blue;
+    margin: auto;
+}
+
+h1 {
+    color: blue;
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+}
+
+span img {
+    height 300px;
+    width: 250px;
+    border-radius: 10%;
+    margin-left: 50px;
+    border: thick solid black;
+}
+
+div img {
+    height: 200px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: thick solid black;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+#paragraph {
+    color: blue;
+    font-size: 20px;
+    margin-top: 50px;
+}
