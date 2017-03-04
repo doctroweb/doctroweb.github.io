@@ -1,0 +1,83 @@
+body {
+    margin: 20px auto;
+    background-color: darkkhaki;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+.boxes {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-right: -5px;
+    margin-top: -4px;
+}
+
+.brownbox {
+    background-color: brown;
+}
+
+#squarebox {
+    height: 50px;
+    width: 50px;
+    background-color: khaki;
+    position: relative;
+    left: 73px;
+    top: 73px;
+}
+
+.khakibox {
+    background-color: khaki;
+}
+
+.large-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px dashed saddlebrown;
+    background-color: transparent;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.small-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 8px dashed white;
+    position: relative;
+    left: 17px;
+    top: 17px;
+}
+
+#small-square {
+    height: 30px;
+    width: 30px;
+    background-color: saddlebrown;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+
+.violetbox {
+    background-color: blueviolet;
+}
+
+.lines, .b-lines {
+    height: 80%;
+    width: 10px;
+    display: inline-block;
+    margin: 20px 3px 20px 5px;
+}
+
+.lines {
+    background-color: khaki;
+}
+
+.b-lines {
+    background-color: brown;
+}
