@@ -1,0 +1,126 @@
+body {
+    height: auto;
+    width: auto;
+    font-family: times-new-roman;
+}
+
+.html-design {
+    width: 620.5px;
+    margin: 10px auto;
+    overflow: hidden;
+    height: 750px;
+}
+
+.html-design:hover {
+    border: thin solid black;
+}
+
+.first-box {
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    display: inline-block;
+}
+
+.first-box .the {
+    font-size: 30px;
+    margin-left: 130px;
+    padding-top: 50px;
+    margin-bottom: -15px;
+    text-shadow: 3px 0 0 grey;
+}
+
+.first-box .complete, .reference {
+    font-size: 50px;
+    margin-left: 100px;
+    text-shadow: 3px 0 0 grey;
+}
+
+.first-box .reference {
+    margin-top: -10px;
+}
+
+.second-box {
+    height: 625px;
+    width: 170px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    top: -105px;
+    margin-left: -5px;
+}
+
+.second-box .covers, .html5 {
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.second-container {
+    height: 250px;
+    width: 620px;
+    background-color: black;
+    position: relative;
+    top: -500px;
+}
+
+.second-container .html, .css {
+    font-size: 80px;
+    color: red;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.second-container .html {
+    padding-top: 15px;
+}
+
+.second-container .css {
+    margin-top: -15px;
+}
+
+.fifth-edition {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 330px;
+}
+
+.third-container .lists {
+    height: 250px;
+    width: 450px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 2em;
+    position: relative;
+    top: -500px;
+    display: inline-block;
+}
+
+.third-container .thomas {
+    height: 125px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: -556px;
+    margin-left: -5px;
+    padding-left: 20px;
+}
+
+.third-container .lists .zig-zag-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 17px;
+    margin-left: 270px;
+}
