@@ -1,0 +1,26 @@
+#travelSiteTheme1 .navigation {
+    background-color: black;
+}
+
+#travelSiteTheme1 .navigation .brand {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+#travelSiteTheme1 .main-content {
+    min-height: 300px;
+}
+
+#travelSiteTheme1 footer {
+    width: 80%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#travelSiteTheme1 footer .copyright-notice {
+    margin: 5px;
+    padding: 5px;
+
+}
