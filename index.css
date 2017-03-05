@@ -2,3 +2,26 @@ body {
     margin: 0 auto;
     width: 80%;
 }
+
+.navigation {
+    height: 40px;
+    background-color: indigo;
+    color: white;
+    line-height: 40px;
+}
+
+.navigation .brand {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: white;
+    padding: 5px 10px;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: indigo;
+}
