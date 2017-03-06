@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+#verticle {
+    border: thick solid black;
+    height: 600px;
+    width: 600px;
+    background: url("../images/architecture-1.jpg") no-repeat no-repeat;
+    background-size: cover;
+}
+
+.line {
+    width: 350px;
+    border: thick solid black;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.semicircle {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border: 10px solid black;
+    border-color: black black transparent black;
+}
+
+.anotherline {
+    width: 100px;
+    border: thick solid black;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 50px;
+    text-shadow: -2px -2px 0 grey;
+}
+
+#boxes {
+    width: 350px;
+    border: thin solid transparent;
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.triangleA, .triangleC {
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    border-width: 0 50px 50px 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.triangleB {
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    border-width: 50px 50px 0 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+p {
+    color: black;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 20px;
+}
