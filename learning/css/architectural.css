@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    width: 800px;
+    margin: 5px 300px;
+    background-color: grey;
 }
 
 #verticle {
@@ -8,6 +10,7 @@ body {
     width: 600px;
     background: url("../images/architecture-1.jpg") no-repeat no-repeat;
     background-size: cover;
+
 }
 
 .line {
